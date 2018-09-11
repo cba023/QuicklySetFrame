@@ -51,7 +51,7 @@ iOS开发布局有多套方案可以实现，大致有几种方法。NSLayoutCon
 }
 ```
 
-显然的，layout相当于是一个布局的数据缓存，当他设定好使，再把值赋值给view的frame，完成它的使命。
+显然的，layout相当于是一个布局的数据缓存，当他设定好值，再把值赋值给view的frame，完成它的使命。
 代码已经上传到github，具体实现请参见 https://github.com/cba023/QuicklySetFrame
 
 谢谢。
