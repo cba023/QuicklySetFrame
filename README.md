@@ -1,6 +1,6 @@
 
 ## 前言
-iOS开发布局有多套方案可以实现，大致有几种方法。NSLayoutConstraint, Masony, Snapkit(Swift环境布局框架)，也可以用setframe来实现简单的布局。
+iOS开发布局有多套方案可以实现，大致有几种方法。NSLayoutConstraint, Masonry, Snapkit(Swift环境布局框架)，也可以用setframe来实现简单的布局。
 
 * NSLayoutConstraint：苹果官方推出的约束方式，在XIB或故事板中可以使用拖拽快速实现，纯代码实现起来显得相当繁琐。
 * Masony: 一款经典的三方布局框架，由Objective-C语言编写，适用于纯代码布局，相对于官方的NSLayoutConstraint是用代码布局而言，可以在一个block中实现对单一控件实现完整布局，有着很高的布局效率，缺点是有侵入性，代码的可以阅读性不够好。
